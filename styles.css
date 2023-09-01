@@ -1,0 +1,84 @@
+/* SELETORES POR ELEMENTO */
+
+body {
+    background-color: rgb(255, 241, 231);
+}
+
+figcaption {
+    text-decoration: underline;
+}
+
+li {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+dt {
+    color: black;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+}
+
+/* SELETORES POR ID */
+
+#name {
+    color: rgb(255, 125, 40);
+    text-decoration: underline;
+}
+
+/* SELETORES POR CLASSE */
+
+.section-title {
+    background-color: rgb(255, 140, 60);
+    color: white;
+    font-weight: bold;
+    padding: 5px 0px 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+
+.text {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 0px 0px 10px;
+    font-style: oblique;
+}
+
+.education-item {
+    padding: 0px 0px 0px 10px;
+}
+
+.footer-text {
+    background-color: rgb(255, 140, 60);
+    color: white;
+    font-weight: bold;
+    padding: 5px 0px 5px 10px;
+}
+
+/* SELETORES POR ATRIBUTO */
+
+a[href="https://github.com/bnnx"] {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a[href="mailto:bdias.2017@alunos.utfpr.edu.br"] {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* SELETORES POR PSEUDO-CLASSE */
+
+a:hover {
+    color: rgb(255, 140, 60);
+}
